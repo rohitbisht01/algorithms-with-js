@@ -36,17 +36,18 @@
 
 #### Searching Algorithms
 
-    Linear Search
-    Binary Search
+    Linear Search : O(n)
+    Binary Search : O(logn)
     Recursive Binary Search
 
-#### Sorting Algorithms
+#### Sorting Algorithms (average case complexity)
 
-    Bubble Sort
-    Selection Sort
-    Insertion Sort
-    Merge Sort
-    Quick Sort
+    Bubble Sort : O(n^2)
+    Selection Sort : O(n^2) : in-place + unstable (the order of duplicate elements isn't preserved after sorting) + comparision algo
+    Insertion Sort : O(n^2) : performs well when the size of the array is small
+    Divide and Conquer Algorithms:
+        Merge Sort : O(n logn) : not a in-place sorting algo as it takes extra space (auxiliary array) - S(n): O(n)
+        Quick Sort : O(n logn) : in-place sorting algo + doesn't take any extra space
 
 #### Misc Problems
 
