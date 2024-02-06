@@ -57,15 +57,19 @@
 
 #### Data Structures
 
-    Arrays
-    Object
-    Set
-    Map
-    Queue
-    Circular Queue
-    Linked List
-    Doubly Linked List
-    Hash Table
-    Tree
-    Binary Search Tree
-    Graph
+    Built-in ds
+        Arrays : iterable
+        Object : not iterable using for of loop
+        Set : do not maintain insertion order + iterable
+        Map : ordered + iterables
+
+    Custom ds
+        Stack : LIFO + eg. Browser history, undo operation when typing + expression comversions, call stack in js runtime
+        Queue : FIFO + eg. Printers, CPU task scheduling, callback queue in js runtime
+        Circular Queue : eg. Clock, Streaming data, Traffic lights
+        Linked List : eg. All applications of both stacks and queues are applications of ll , Image Viewer
+        Doubly Linked List
+        Hash Table : known as hash map, used to store key-value pairs + key for fast look up + js object is a implementation of hash table ds + eg. Implemented where constant time lookup and insertion is required + database indexing + caches
+        Tree : hierarchical + non-linear ds + eg. File system, family tree + organization tree + chat bot + DOM
+        Binary Search Tree : eg. Searching, sorting, to implement ADT such as lookup tables and priority queues
+        Graph : eg. Google maps, social media sites
